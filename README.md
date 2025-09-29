@@ -1,6 +1,6 @@
 # Deep Learning for Transportation Image Recognition: A Custom CNN vs. VGG16 Approach
 
-This repository contains **Project Two** for my portfolio: an image-classification study comparing a **custom CNN** trained from scratch against **VGG16** (transfer learning) on a small transportation dataset (airplane vs. car, plus other classes if present). The goal is to measure the trade‑offs between capacity, training time, and generalization.
+This repository contains **Deep Learning Project**: an image-classification study comparing a **custom CNN** trained from scratch against **VGG16** (transfer learning) on a small transportation dataset (airplane vs. car, plus other classes if present). The goal is to measure the trade‑offs between capacity, training time, and generalization.
 
 > Notebook file: `ProjectTwo_DL.ipynb`
 
@@ -78,33 +78,6 @@ jupyter notebook
    - Build and train the **Custom CNN**.
    - Load **VGG16** (pretrained), attach a custom head, and train (frozen → fine‑tune).
    - Evaluate and compare metrics; save plots to `figures/` and optional weights to `checkpoints/`.
-
----
-
-## 📂 Repository Structure
-
-```
-.
-├── ProjectTwo_DL.ipynb      # Main DL notebook (provided)
-├── data/                    # Place Kaggle dataset here (contains .gitkeep)
-├── figures/                 # Training curves, confusion matrices
-├── checkpoints/             # Optional model weights
-├── requirements.txt         # Python dependencies
-├── environment.yml          # Conda environment (optional)
-├── .gitignore               # Ignore caches, venvs, data dumps, weights
-├── LICENSE                  # MIT
-└── README.md                # This file
-```
-
----
-
-## ✅ Checklist
-
-- [ ] Dataset placed under `data/` with class subfolders.
-- [ ] Custom CNN and VGG16 runs complete; metrics recorded.
-- [ ] Curves and confusion matrices saved to `figures/`.
-- [ ] Results and observations summarized in README or notebook.
-- [ ] Environment files updated if additional packages are used.
 
 ---
 
